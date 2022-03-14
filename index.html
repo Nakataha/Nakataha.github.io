@@ -5,23 +5,28 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mehmet Taha Demirci</title>
         <style type="text/css">
-            .row {
+            
+        * {
+			box-sizing: border-box;
+          }
+        .row {
 			display: flex;
+            padding: 0ex;
 		}
 
 		.column {
 			flex: 100%;
-			padding: 50px;
+			padding: 0ex;
 		}
             button {border: none;
                     color: black;
-                    padding: 75px 100px;
+                    padding: 100px;
                     text-align: center;
                     text-decoration: none;
                     display: inline-block;
                     font-size: 16px;
                     cursor: pointer;
-                    width: 90%;
+                    width: 80%;
                     height: 90%;
                     background-color: bisque;
                     }
@@ -35,9 +40,10 @@
     <body>
         
         <h1>MEHMET TAHA DEMİRCİ</h1>
+        <div style="width:60%;margin:auto">
         <div class="row">
             <div class="column">
-        <button style="text-align: center;" title="Mehmet Taha Demirci CV" onclick="document.location='1306180043-CV.html'"><img src="cv.webp"/ width="150px"><br><b>CV</b></button>
+        <button title="Mehmet Taha Demirci CV" onclick="document.location='1306180043-CV.html'"><img src="cv.webp"/ width="150px"><br><b>CV</b></button>
         </div>
         <div class="column">
         <button title="Projects" onclick="document.location='Projects.html'"><img src="project.jpg"/ width="150px"><br><b>PROJECTS</b></button>
@@ -49,6 +55,7 @@
         </div>
         <div class="column">
         <button title="About Me" onclick="document.location='About-Me.html'"><img src="user.png"/ width="150px"><br><b>ABOUT ME</b></button>
+        </div>
         </div>
         </div>
     </body>
